@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"o_eyes",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"o_foot",
+  "eventList":[],
   "managed":true,
-  "name":"o_eyes",
+  "name":"o_foot",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_mage_feet",
+    "path":"sprites/s_mage_feet/s_mage_feet.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

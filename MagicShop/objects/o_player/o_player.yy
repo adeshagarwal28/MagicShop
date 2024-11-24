@@ -1,12 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"o_eyes",
+  "%Name":"o_player",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_eyes",
+  "name":"o_player",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -24,13 +25,24 @@
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
-  "physicsShapePoints":[],
+  "physicsShapePoints":[
+    {"x":0.0,"y":0.0,},
+    {"x":831.0,"y":0.0,},
+    {"x":831.0,"y":714.0,},
+    {"x":0.0,"y":714.0,},
+  ],
   "physicsStartAwake":true,
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
-  "spriteMaskId":null,
+  "spriteId":{
+    "name":"s_mage_body",
+    "path":"sprites/s_mage_body/s_mage_body.yy",
+  },
+  "spriteMaskId":{
+    "name":"s_mage_body",
+    "path":"sprites/s_mage_body/s_mage_body.yy",
+  },
   "visible":true,
 }

@@ -16,5 +16,13 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"o_foot","order":3,"path":"objects/o_foot/o_foot.yy",},
+    {"name":"o_hand","order":2,"path":"objects/o_hand/o_hand.yy",},
+    {"name":"o_player","order":1,"path":"objects/o_player/o_player.yy",},
+    {"name":"s_mage_body","order":1,"path":"sprites/s_mage_body/s_mage_body.yy",},
+    {"name":"s_mage_feet","order":2,"path":"sprites/s_mage_feet/s_mage_feet.yy",},
+    {"name":"s_mage_hand","order":3,"path":"sprites/s_mage_hand/s_mage_hand.yy",},
+    {"name":"s_mage_head","order":4,"path":"sprites/s_mage_head/s_mage_head.yy",},
+  ],
 }
